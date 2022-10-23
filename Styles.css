@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    color: white;
+    font-size: 50px;
+    font-family: 'Press Start 2P';
+    line-height: 160%;
+
+}
+
+body {
+    background-image: url(./src/zed.jpg);
+    background-position: top center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: #121214;
+    font-family: 'inter', 'sans-serif';
+}
+
+main {
+    max-width: 580px;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    gap: 24px;
+    text-align: center;
+}
+
+section {
+    color: white;
+    background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+    padding-top: 4px;
+    border-radius: 15px;
+}
+
+section h2 {
+    letter-spacing: -0.47px;
+}
+
+section p {
+    color: #A1A1AA;
+} 
+
+section ul {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    list-style: none;
+    margin-top: 24px;
+    gap: 16px;
+}
+
+.caixa-de-itens {
+    background-color: #2A2634;
+    padding: 32px;
+    padding-top: 24px;
+    border-radius: 8px;
+}
+
+.game-list img {
+    width: 120px;
+    border-radius: 6px;
+
+}
+
+.streamer-list img {
+    border-radius: 50%;
+    width: 75px;
+}
+
+.social-list img {
+    width: 27px;
+}
