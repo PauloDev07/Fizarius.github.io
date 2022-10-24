@@ -4,12 +4,6 @@
     box-sizing: border-box;
 }
 
-@font-face {
-    font-family: 'DEBUG FREE TRIAL';
-    src: url(./src/DEBUG-FREE-TRIAL.otf) format('opentype'), 
-    url(./src/DEBUG-FREE-TRIAL.ttf) format('truetype');
-}
-
 header {
     text-align: center;
     color: white;
